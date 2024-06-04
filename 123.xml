@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html-code>
+  <doctype>
+    Объявление DOCTYPE для HTML5, указывает, что документ использует HTML5.
+  </doctype>
+  <html>
+    <head>
+      <meta>
+        Указывает кодировку страницы (UTF-8).
+      </meta>
+      <title>
+        Заголовок страницы - "Shoe Shop".
+      </title>
+      <links>
+        <link1>
+          Подключение normalize.css для сброса стилей по умолчанию.
+        </link1>
+        <link2>
+          Подключение шрифтов Roboto и Cuprum с Google Fonts.
+        </link2>
+        <link3>
+          Подключение иконочного шрифта Material Design Iconic Font.
+        </link3>
+        <link4>
+          Подключение своих пользовательских стилей.
+        </link4>
+      </links>
+    </head>
+    <body>
+      <div class="wrap">
+        Обертка для всего контента.
+        <div class="wrap-clip">
+          Дополнительный элемент оберки.
+        </div>
+        <div class="content">
+          Основной контент страницы.
+          <div class="top">
+            Верхняя часть контента.
+            <img>
+              Логотип магазина обуви.
+            </img>
+            <div class="menu">
+              Навигационное меню с ссылками на страницы для мужской, женской и детской обуви.
+            </div>
+          </div>
+          <div class="bar">
+            Панель с корзиной и изображениями обуви.
+            <div class="cart">
+              Блок корзины с иконкой и счетчиком.
+            </div>
+            <a>
+              Ссылки на изображения обуви (черная, красная, серая).
+            </a>
+          </div>
+          <div class="products">
+            Блок с продуктами/товарами.
+            <div class="products-wrap">
+              Обертка для продуктов.
+              <div class="item">
+                Блок с информацией об одном товаре.
+                <div class="title">
+                  Заголовок товара.
+                </div>
+                <div class="image">
+                  Изображение товара.
+                </div>
+                <div class="info">
+                  Информация о товаре: название, цена, описание.
+                </div>
+                <button>
+                  Кнопка добавления товара в корзину.
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        Подключение пользовательского скрипта.
+      </script>
+    </body>
+  </html>
+</html-code>
